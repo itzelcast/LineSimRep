@@ -1,4 +1,5 @@
 # LineSimRep
+Version 0.0
 Base Template for comp 182 line simulator.
 
 Problem: 
