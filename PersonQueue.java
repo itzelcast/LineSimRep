@@ -3,7 +3,10 @@ public class PersonQueue{
 	Person head, tail = null;
 
 	public void enqueue(Person p){
-		if(head == null) head,tail = p;
+		if(head == null) {
+			head = p;
+			tail = p;
+		}
 		else{
 			tail.setNext(p);
 			p.setPrev(tail);

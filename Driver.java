@@ -4,5 +4,7 @@ public class Driver{
 		System.out.println(sk.getATime());
 		System.out.println(sk.getDTime());
 		System.out.println(sk.getPTime());
+
+		Store jk = new Store(2);
 	}
 }
