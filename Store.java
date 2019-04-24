@@ -1,9 +1,14 @@
 public class Store{
 	PersonQueue[] mypg;
-	EventPQueue[] myeq;
+	EventPQueue myeq;
 
 	int numberOfQueues;
-	int totalDElay;
+	int totalDelay;
+
+	public Store(int q){
+		numberOfQueues = q;
+		mypg = new PersonQueue[numberOfQueues];
+	}
 
 	// will probably need an add method that adds a Person to the PersonQueue with the
     //least number of people
