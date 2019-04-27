@@ -13,7 +13,7 @@ public class Person{//corresponds to a customer
 	public int getDTime(){return departureTime;}
 	public int getPTime(){return processingTime;}
 
-	public int setATime(){return arrivalTime;}
-	public int setDTime(){return departureTime;}
-	public int setPTime(){return processingTime;}	
+	public void setATime(int i){arrivalTime=i;}
+	public void setDTime(int i){departureTime=i;}
+	public void setPTime(int i){processingTime=i;}	
 }
