@@ -16,11 +16,11 @@ public class Store{
 	}
 
 	public void addPerson(){
-		System.out.println(lines[0].size());
+
 	}
 
-	public void removePerson(){
-
+	public void removePerson(int l){
+		lines[l].poll();
 	}
 	// will probably need an add method that adds a Person to the PersonQueue with the
     //least number of people
